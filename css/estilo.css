@@ -5,7 +5,7 @@
     background-color: rgb(0, 47, 255);
     border: 7px solid rgb(2, 60, 250);
     border-radius: 5px;
-    color: rgb(127, 115, 236);
+    color: rgb(227, 231, 241);
 }
 .containerPG{
     display: flex;
@@ -18,5 +18,208 @@
 }
 .containerPG a{
     text-decoration: none;
-    color: rgb(141, 156, 240);  
+    color: rgb(235, 236, 241);  
+}
+.containerA {
+    display: flex;
+    margin: 0 auto;
+    height:600px;
+    width: 1200px;
+    flex-direction: column;
+}
+
+.containerB {
+    display: flex;
+    flex: 1;
+    background-color: rgb(15, 29, 228);
+    padding: 10px;
+}
+
+.containerB h1{
+    color:rgb(255, 255, 255);
+}
+
+.containerC {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+}
+
+.containerMenu {
+    background-color: rgb(12, 64, 236);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerItem ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: rgb(15, 57, 245);
+    border: 5px solid rgb(25, 10, 233);
+    border-radius: 5px;
+}
+
+.containerItem {
+    text-decoration: none;
+    color: rgb(141, 212, 253);
+}
+
+.containerAd {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 89, 238);
+    flex: 1;
+}
+
+.containerD {
+    display: flex;
+    background-color: rgb(4, 47, 235);
+    flex: 2;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.containerPG1 ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(6, 105, 11);
+    border: 7px solid rgb(8, 121, 13);
+    border-radius: 5px;
+    color: rgb(3, 179, 97);
+}
+.containerPG1{
+    display: flex;
+    height: 50px;
+    background-color:rgb(9, 214, 136);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.containerPG1 a{
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+
+}
+.blocoA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.blocoB {
+    height: 50vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 35px;
+    margin-top: 90px
+}
+
+.blocoA1 {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(144, 238, 191);
+}
+
+.blocoB1 {
+    height: 30vh;
+    flex: 1;
+    background-color: rgb(0, 255, 76);
+}
+
+.blocoC1 {
+    height: 15vh;
+    flex: 1;
+    background-color: rgb(144, 238, 180);
+}
+
+.blocoD1 {
+    height: 35vh;
+    flex: 1;
+    background-color: rgb(0, 255, 64);
+}
+
+.blocoE1 {
+    height: 50vh;
+    flex: 1;
+    background-color: rgb(144, 238, 183);
+}
+
+.blocoF1 {
+    height: 20vh;
+    flex: 1;
+    background-color: rgb(0, 255, 85);
+}
+
+.containerPG2 {
+    display: flex;
+    height: 50px;
+    background-color:rgb(233, 255, 192);
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerPG2 ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(193, 235, 7);
+    border: 7px solid rgb(189, 238, 11);
+    border-radius: 5px;
+    color: rgb(13, 10, 14);
+    margin: 10px;
+}
+
+
+.containerPG2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    
+}
+
+.contB {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contC {
+    display: flex;
+    height: 400px;
+    width: 220px;
+    background-color: rgb(196, 235, 23);
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.contC p{
+    padding: 10px;
+    margin: 0;
+}
+
+.contC h1{
+    background-color: rgb(204, 255, 20);
+    border-bottom: 20px solid rgb(239, 255, 20);
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    margin: 0;
 }
