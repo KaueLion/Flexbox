@@ -161,7 +161,7 @@
 .containerPG2 {
     display: flex;
     height: 50px;
-    background-color:rgb(233, 255, 192);
+    background-color:rgb(192, 233, 10);
     padding:20px;
     align-items: center;
     flex-direction: column;
